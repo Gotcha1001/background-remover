@@ -831,7 +831,7 @@ export default function Converter() {
                                 value="image"
                                 checked={backgroundOption === 'image'}
                                 onChange={handleBackgroundOptionChange}
-                                className="mr-2 h-4 w-4 text-green-400 border-gray-300 focus:ring-green-500"
+                                className="mr-2 h-4 w-4 text-green-500 border-gray-300 focus:ring-green-500"
                             />
                             Custom Background Image
                         </label>
