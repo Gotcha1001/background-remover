@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/**/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "build": {
+    "env": {
+      "PYTHON": "/usr/bin/python3"
+    }
+  },
+  "installCommand": "npm install --ignore-scripts"
+}
